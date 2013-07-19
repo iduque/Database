@@ -36,6 +36,7 @@ CREATE TABLE `UserPreferences` (
   `sound` varchar(30) DEFAULT NULL,
   `location` varchar(45) DEFAULT NULL,
   `approach` varchar(45) DEFAULT NULL,
+  `voice` int(11) DEFAULT NULL,
   PRIMARY KEY (`userId`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Holds details of user Preferences';
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -46,7 +47,7 @@ CREATE TABLE `UserPreferences` (
 
 LOCK TABLES `UserPreferences` WRITE;
 /*!40000 ALTER TABLE `UserPreferences` DISABLE KEYS */;
-INSERT INTO `UserPreferences` VALUES (2,0,'15:00','http://www.bbc.co.uk/news/','http://www.bbc.co.uk/weather','http://grooveshark.com','http://www.bbc.co.uk/food/recipes','Yellow','Sound 1','Personal','Front'),(5,0,'00:00','http://www.bbc.co.uk/news/','http://www.bbc.co.uk/weather','http://grooveshark.com','http://www.jamieoliver.com/recipes','Yellow','Sound 4','','');
+INSERT INTO `UserPreferences` VALUES (2,0,'15:00','http://www.bbc.co.uk/news/','http://www.bbc.co.uk/weather','http://grooveshark.com','http://www.bbc.co.uk/food/recipes','Yellow','Sound 1','Personal','Front',0),(5,0,'00:00','http://www.bbc.co.uk/news/','http://www.bbc.co.uk/weather','http://grooveshark.com','http://www.jamieoliver.com/recipes','Yellow','Sound 4','','',1);
 /*!40000 ALTER TABLE `UserPreferences` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -59,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-07-16 12:04:18
+-- Dump completed on 2013-07-19 18:26:44

@@ -48,7 +48,7 @@ CREATE TABLE `Users` (
 
 LOCK TABLES `Users` WRITE;
 /*!40000 ALTER TABLE `Users` DISABLE KEYS */;
-INSERT INTO `Users` VALUES (1,'Joe','Saunders','Joe',14,2,0,0,1,4.3,1.6,0,NULL),(2,'Kheng Lee','Koay','Kheng Lee',14,2,0,0,2,NULL,NULL,0,'1'),(3,'Mick','Walters','Mick',604,2,0,0,3,NULL,NULL,0,NULL),(4,'Dag','Syrdal','Dag',0,0,0,0,7,NULL,NULL,0,NULL),(50,'Default ZUYD Dutch','Default ZUYD User Dutch','ZDutch',611,0,0,0,3,NULL,NULL,NULL,NULL),(100,'Default Madopa','Default Madop User','Madopa User',800,0,0,0,2,0,NULL,NULL,NULL),(0,'Default','Default User','Default User',0,NULL,0,0,0,NULL,NULL,NULL,NULL),(900,'test','test','test',0,0,0,0,0,NULL,NULL,NULL,NULL),(901,'testt','tes','tt',0,0,0,0,0,0,0,0,NULL),(5,'Marco','Bongini','M',600,2,0,0,1,4.3,1.6,0,NULL),(51,'ZUYD User English','ZUYD User English','ZUYD User English',606,0,0,0,1,0,0,0,NULL);
+INSERT INTO `Users` VALUES (1,'Joe','Saunders','Joe',14,2,0,0,1,4.3,1.6,0,NULL),(2,'Kheng Lee','Koay','Kheng Lee',14,2,0,0,2,NULL,NULL,0,'2'),(3,'Mick','Walters','Mick',604,2,0,0,3,NULL,NULL,0,NULL),(4,'Dag','Syrdal','Dag',0,0,0,0,7,NULL,NULL,0,NULL),(50,'Default ZUYD Dutch','Default ZUYD User Dutch','ZDutch',611,0,0,0,3,NULL,NULL,NULL,NULL),(100,'Default Madopa','Default Madop User','Madopa User',800,0,0,0,2,0,NULL,NULL,NULL),(0,'Default','Default User','Default User',0,NULL,0,0,0,NULL,NULL,NULL,NULL),(900,'test','test','test',0,0,0,0,0,NULL,NULL,NULL,NULL),(901,'testt','tes','tt',0,0,0,0,0,0,0,0,NULL),(5,'Marco','Bongini','M',600,2,0,0,1,4.3,1.6,0,NULL),(51,'ZUYD User English','ZUYD User English','ZUYD User English',606,0,0,0,1,0,0,0,NULL);
 /*!40000 ALTER TABLE `Users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -86,4 +86,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-07-16 12:04:18
+-- Dump completed on 2013-07-19 18:26:44
